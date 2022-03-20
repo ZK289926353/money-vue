@@ -1,16 +1,24 @@
 <template>
-    <div>
-        labels
-        <Nav/>
-    </div>
+  <div class="nav-wrapper">
+    <div class="content">label</div>
+    <Nav />
+  </div>
 </template>
 
 <script lang="ts">
-    import Vue from 'vue'
-    export default  Vue.extend({
-    })
+import Vue from "vue";
+export default Vue.extend({});
 </script>
 
 <style lang="scss" scoped>
-
+.nav-wrapper {
+  border: 1px solid green;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex-grow: 1;
+  overflow: auto;
+}
 </style>
