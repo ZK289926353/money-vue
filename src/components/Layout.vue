@@ -15,7 +15,6 @@ export default Vue.extend({});
 
 <style scoped>
 .nav-wrapper {
-  border: 1px solid green;
   height: 100vh;
   display: flex;
   flex-direction: column;
