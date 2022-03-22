@@ -15,7 +15,7 @@ import Notes from "@/components/Money/Notes.vue";
 import Tags from "@/components/Money/Tags.vue";
 
 export default Vue.extend({
-  components: { NumberPad, Types, Notes, Tags},
+  components: { NumberPad, Types, Notes, Tags },
 });
 </script>
 
