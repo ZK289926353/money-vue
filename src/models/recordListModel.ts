@@ -14,9 +14,11 @@ const recordListModel = {
     record2.createdAt = new Date();
     this.data.push(record2);
     this.save();
+    
   },
   save() {
     window.localStorage.setItem(localStorageKeyName, JSON.stringify(this.data));
+    return 'ok';
   },
 };
 
