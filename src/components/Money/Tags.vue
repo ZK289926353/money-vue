@@ -18,9 +18,8 @@
 
 <script lang="ts">
 import { TagHelper } from "@/mixins/TagHelper";
-import Vue from "vue";
 import { mixins } from "vue-class-component";
-import { Component, Prop } from "vue-property-decorator";
+import { Component } from "vue-property-decorator";
 @Component
 export default class Tags extends mixins(TagHelper) {
   get tagList() {
